@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class camera_rotate : MonoBehaviour
 {
-    [Range(0, 200)]
+    [Range(0, 240)]
     public float rotate_scale = 40f;
+
     // Start is called before the first frame update
     void Start()
     {
