@@ -14,6 +14,6 @@ public class camera_rotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this.transform.Rotate(0f, 40f * Time.deltaTime, 0f);
+        this.transform.Rotate(0f, rotate_scale * Time.deltaTime, 0f);
     }
 }
